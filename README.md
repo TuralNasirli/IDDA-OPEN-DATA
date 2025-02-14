@@ -353,9 +353,6 @@ Bu API açarından istifadə edərək məlumat dəstlərini yükləmək üçün 
 
 **1\. Məlumat idarəetmə sistemində API-ə qoşulma və faylları ehtiva edən mənbə qovluq.**
 
-&nbsp;
-
-&nbsp;
 
 \# CKAN instance main URL
 ckan_url = "<http://opendata-api.idda.az/api/3/action>"
@@ -389,19 +386,20 @@ dir_path = '&lt;/your_directory_where_files_located&gt;'
 
 &nbsp;
 
-package_data = {
-    "\_csrf_token": "IjA1ODU0MmU2MGZjYmI4MmFjOTIxOTI0YzAxYzE3NGExYzBmYzU1ZDIi.Z1lN-A.t9BcCBwgWm1hSubcD_4SVO182uo",
-    "name": dataset_name,
-    "title_translated-az": dataset_title, # title in Azerbaijani
-    "title_translated-en": title_en, # title in English
-    "title_translated-ru": title_ru, # title in Russian
-    "url": dataset_name,  # Easy practice to generate URL is using dataset name
-    "owner_org": '9b44b52f-2116-48c8-9565-d9dc026dca8f',   # This ID is unique for each publisher  
+&nbsp;       package_data = {
 
-&nbsp;# organization and share by CKAN admin
-    &nbsp;"license_id": 'notspecified',
-    &nbsp;"private": False, # if set False, it will be publicly available in portal
-    &nbsp;"tag_string": directory_name  # Easy practice to generate TAG is using directory name
+&nbsp;       "\_csrf_token": "IjA1ODU0MmU2MGZjYmI4MmFjOTIxOTI0YzAxYzE3NGExYzBmYzU1ZDIi.Z1lN-A.t9BcCBwgWm1hSubcD_4SVO182uo",
+&nbsp;       "name": dataset_name,
+&nbsp;       "title_translated-az": dataset_title, # title in Azerbaijani
+&nbsp;       "title_translated-en": title_en, # title in English
+&nbsp;       "title_translated-ru": title_ru, # title in Russian
+&nbsp;       "url": dataset_name,  # Easy practice to generate URL is using dataset name
+&nbsp;       "owner_org": '9b44b52f-2116-48c8-9565-d9dc026dca8f',   # This ID is unique for each publisher  
+
+&nbsp;       # organization and share by CKAN admin
+&nbsp;       "license_id": 'notspecified',
+&nbsp;       "private": False, # if set False, it will be publicly available in portal
+&nbsp;       "tag_string": directory_name  # Easy practice to generate TAG is using directory name
     }
 
 **3**. **Məlumat dəstində konkret faylın metaməlumatlarının doldurulması üçün element adları**.
