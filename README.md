@@ -143,20 +143,94 @@ Məlumat dəstləri həmin məlumat dəstini əlavə edən Təşkilat tərəfind
 4. Məlumat dəsti əlavə et **(Add Dataset)** düyməsini seçin.
 5. Aşağıda verilmiş cədvəl əsasında Məlumat dəsti məlumatlarını daxil edin.
 
-| **Metaməlumat**<br><br>**(İngiliscə)** | **Metaməlumat**<br><br>**(Azərbaycanca)** | **Açıqlaması** |
-| --- | --- | --- |
-| AZ, EN, RU Title | Azərbaycan, İngilis və Rus dilində başlıq | Məlumat dəstinə aid təsviri bir başlıq. |
-| AZ, EN, RU Description | Azərbaycan, İngilis və Rus dilində təsviri (açıqlaması) | Məlumat dəsti haqqında faydalı qeydlər.<br><br>Description hissəsində məlumatın **yenilənmə tezliyi (**əsas anlayışlar bölməsində terminin izahı verilmişdir) haqqında məlumat vermək vacibdir. |
-| Tags | Etiketlər | Tag, məlumat dəstini təsvir etmək və axtarışı asanlaşdırmaq üçün istifadə olunan açar sözlərdir.<br><br>(məsələn, təhsil, xərclər). |
-| License | Lisenziya | Lisenziya iştirakçılara həmin məlumat dəstinin istifadəsi, paylaşılması və yenidən işlənməsi ilə bağlı hüquq və məhdudiyyətləri bildirir. Lisenziyalar və onların növləri barəsində 1.3.1.3 bölməsindən tanış ola bilərsiniz. |
-| Organization | Təşkilat | Məlumat dəstini idarə edən təşkilat. |
-| Visibility | Görünürlük | Görünürlük hissəsində iki seçim vardır.  <br>**Private**: yanlız məlumat idarəetmə sistemində məlumat dəsti əlçatan olur.<br><br>**Public**: Məlumat dəsti həmçinin “Açıq məlumatlar” portalında iştirakçılar tərəfindəndə əlçatan olur. |
-| Source | Mənbə | Əgər paylaşılan məlumat dəsti Məlumatı açıqlayan Təşkilatın saytında yer alırsa, burada həmin link yerləşdirilə bilər. |
-| Version | Versiya | Məlumat dəstinin cari versiyası. Versiyalandırma məntiqi ilə 1.3.1.2 bölməsindən tanış ola bilərsiniz. |
-| AZ, EN, RU Author | Azərbaycan, İngilis və Rus dilində müəllifin adı | Məlumatların istehsalına cavabdeh olan şəxsin və ya təşkilatın adı. |
-| Author Email | Müəllifin e-poçtu | Məlumatların istehsalına cavabdeh olan şəxsin və ya təşkilatın elektron poçt ünvanı. |
-| AZ, EN, RU Maintainer | Azərbaycan, İngilis və Rus dilində Maintainerin adı | Lazım gələrsə, məlumatlara cavabdeh olan ikinci şəxs |
-| Maintainer Email | Maintainerin e-poçtu | Məlumat dəstinə cavabdeh şəxslə əlaqə üçün e-poçt ünvanı. |
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th>Metaməlumat (ingiliscə)</th>
+            <th>Metaməlumat (Azərbaycanca)</th>
+            <th>Açıqlaması</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>AZ, EN, RU Title</td>
+            <td>Azərbaycan, İngilis və Rus dilində başlıq</td>
+            <td>Məlumat dəstinə aid təsviri bir başlıq.</td>
+        </tr>
+        <tr>
+            <td>AZ, EN, RU Description</td>
+            <td>Azərbaycan, İngilis və Rus dilində təsviri (açıqlaması)</td>
+            <td>
+                Məlumat dəsti haqqında faydalı qeydlər.<br>
+                Description hissəsində məlumatın <strong>*yenilənmə tezliyi (*asas anlayışlar bölməsində terminə izah verilmişdir)</strong> haqqında məlumat vermək vacibdir.
+            </td>
+        </tr>
+        <tr>
+            <td>Tags</td>
+            <td>Etiketlər</td>
+            <td>
+                Tag, məlumat dəstini təsvir etmək və axtarışı asanlaşdırmaq üçün istifadə olunan açar sözlərdir.<br>
+                (məsələn, təhsil, xərclər).
+            </td>
+        </tr>
+        <tr>
+            <td>License</td>
+            <td>Lisenziya</td>
+            <td>
+                Lisenziya iştirakçılara həmin məlumat dəstinin istifadəsi, paylaşılması və yenidən işlənməsi ilə bağlı hüququ və məhdudiyyətləri bildirir. <br>
+                Lisenziyalar və onların növləri barəsində 1.3.1.3 bölməsindən daha çox məlumat əldə edə bilərsiniz.
+            </td>
+        </tr>
+        <tr>
+            <td>Organization</td>
+            <td>Təşkilat</td>
+            <td>Məlumat dəstini idarə edən təşkilat.</td>
+        </tr>
+        <tr>
+            <td>Visibility</td>
+            <td>Görünürlük</td>
+            <td>
+                Görünürlük hissəsində iki seçim vardır.<br>
+                <strong>Private:</strong> yalnız məlumat idarəetmə sistemində məlumat dəsti əlçatan olur.<br>
+                <strong>Public:</strong> Məlumat dəsti həmçinin “Açıq məlumatlar” portalında iştirakçılar tərəfindən də əlçatan olur.
+            </td>
+        </tr>
+        <tr>
+            <td>Source</td>
+            <td>Mənbə</td>
+            <td>
+                Əgər paylaşılan məlumat dəsti Məlumatı açıqlayan Təşkilatdan başqa yerə aiddirsə, burada həmin link yerləşdirilə bilər.
+            </td>
+        </tr>
+        <tr>
+            <td>Version</td>
+            <td>Versiya</td>
+            <td>
+                Məlumat dəstinin cari versiyası. Versiyalandırma haqqında əlavə məlumatı 1.3.1.2 bölməsindən tanış ola bilərsiniz.
+            </td>
+        </tr>
+        <tr>
+            <td>AZ, EN, RU Author</td>
+            <td>Azərbaycan, İngilis və Rus dilində müəllifin adı</td>
+            <td>Məlumatların istehsalına cavabdeh olan şəxs və ya təşkilatın adı.</td>
+        </tr>
+        <tr>
+            <td>Author Email</td>
+            <td>Müəllifin e-poçtu</td>
+            <td>Məlumatların istehsalına cavabdeh olan şəxsin və ya təşkilatın elektron poçt ünvanı.</td>
+        </tr>
+        <tr>
+            <td>AZ, EN, RU Maintainer</td>
+            <td>Azərbaycan, İngilis və Rus dilində Maintainerin adı</td>
+            <td>Lazım gəlsə, məlumatlara cavabdeh olan ikinci şəxs.</td>
+        </tr>
+        <tr>
+            <td>Maintainer Email</td>
+            <td>Maintainerin e-poçtu</td>
+            <td>Məlumat dəstinə cavabdeh şəxslə əlaqə üçün e-poçt ünvanı.</td>
+        </tr>
+    </tbody>
+</table>
 
 Cədvəl 1
 
