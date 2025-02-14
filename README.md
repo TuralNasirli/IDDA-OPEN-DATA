@@ -399,9 +399,9 @@ package_data = {
     "owner_org": '9b44b52f-2116-48c8-9565-d9dc026dca8f',   # This ID is unique for each publisher  
 
 &nbsp;# organization and share by CKAN admin
-    "license_id": 'notspecified',
-    "private": False, # if set False, it will be publicly available in portal
-    "tag_string": directory_name  # Easy practice to generate TAG is using directory name
+    &nbsp;"license_id": 'notspecified',
+    &nbsp;"private": False, # if set False, it will be publicly available in portal
+    &nbsp;"tag_string": directory_name  # Easy practice to generate TAG is using directory name
     }
 
 **3**. **Məlumat dəstində konkret faylın metaməlumatlarının doldurulması üçün element adları**.
@@ -432,4 +432,3 @@ package_data = {
 
 &nbsp;
 
-&nbsp;
