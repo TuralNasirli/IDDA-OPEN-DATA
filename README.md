@@ -348,6 +348,8 @@ Bu API açarından istifadə edərək məlumat dəstlərini yükləmək üçün 
 2. Profilinizə (İştirakçı adınızın yazıldığı hissə) klikləyin.
 3. API açarlar **(API Tokens)** bölməsinə keçid edin.
 4. Silmək istədiyiniz tokeni **X** butonuna basaraq silə bilərsiniz.
+   
+&nbsp;
 
 ### 1.6.3 API vasitəsi ilə məlumat dəstlərinin əlavə edilməsi
 
@@ -378,13 +380,9 @@ dir_path = '&lt;/your_directory_where_files_located&gt;'
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
 
 **2\. Məlumat dəstində Metaməlumatların doldurulması üçün element adları.**
 
-&nbsp;
 
 &nbsp;       package_data = {
 
