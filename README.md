@@ -1,8 +1,6 @@
-# IDDA-OPEN-DATA
-
 "Açıq məlumatlar" portalının iştirakçı təlimatı
 
-Bu təlimat **[CKAN 2.10.7 Overview](https://docs.ckan.org/en/2.10/)** sənədinə əsaslanaraq hazırlanmış və “Açıq Məlumatlar” portalının məlumat idarəetmə sistemindən istifadə edən iştirakçılar üçün nəzərdə tutulmuşdur. Təlimatda iştirakçıların yerinə yetirəcəyi bütün əməliyyatlar ətraflı izah edilmişdir. Bu, onların məlumatların paylaşılması və idarə olunması prosesini effektiv və düzgün şəkildə icra etməsinə kömək edəcək.
+Bu təlimat [**CKAN 2.10.7 Overview**](https://docs.ckan.org/en/2.10/) sənədinə əsaslanaraq hazırlanmış və “Açıq Məlumatlar” portalının məlumat idarəetmə sistemindən istifadə edən iştirakçılar üçün nəzərdə tutulmuşdur. Təlimatda iştirakçıların yerinə yetirəcəyi bütün əməliyyatlar ətraflı izah edilmişdir. Bu, onların məlumatların paylaşılması və idarə olunması prosesini effektiv və düzgün şəkildə icra etməsinə kömək edəcək.
 
 # "Açıq Məlumatlar" portalı nədir
 
@@ -12,81 +10,7 @@ Bu təlimat **[CKAN 2.10.7 Overview](https://docs.ckan.org/en/2.10/)** sənədin
 
 Aşağıdakı cədvəl sizə portalda yer alan Anlayışlar və biznes terminləri haqqında ümumi məlumat verir.
 
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>Əsas anlayışlar</th>
-      <th>Açıqlama</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Open Data (Açıq məlumat)</td>
-      <td>Açıq şəkildə paylaşılan və hər kəsin istifadə edə biləcəyi məlumatlardır.</td>
-    </tr>
-    <tr>
-      <td>CKAN</td>
-      <td>Açıq mənbəli məlumat idarəetmə sistemi olub, məlumat dəstlərinin saxlanması, paylaşılması və yayımlanması üçün istifadə olunur.</td>
-    </tr>
-    <tr>
-      <td>Metadata (Metaməlumatlar)</td>
-      <td>Məlumat dəstləri haqqında məlumatları təsvir edən məlumatlar.</td>
-    </tr>
-    <tr>
-      <td>Dataset (Məlumat Dəsti)</td>
-      <td>Müəyyən bir mövzuya aid məlumatların toplusu. Məsələn, bir bölgənin cinayət statistikası və ya hökumət departamentinin xərcləri haqqında məlumatlar.</td>
-    </tr>
-    <tr>
-      <td>Source (Mənbə)</td>
-      <td>İdarəetmə sistemində məlumat dəstinin mənşəyini və ya məlumatın haradan alındığını göstərmək üçün nəzərdə tutulub.</td>
-    </tr>
-    <tr>
-      <td>Resource (Resurs)</td>
-      <td>Məlumat dəstindəki faktiki məlumat faylları və ya məlumat mənbələri. Bu fayllar CSV, Excel formatları (XLS, XLSX), XML, PDF və ya digər formatlarda ola bilər.</td>
-    </tr>
-    <tr>
-      <td>Activity Stream (Fəaliyyət Axını)</td>
-      <td>Məlumat dəstləri və təşkilatlar üzərində aparılan son fəaliyyətlərin xronoloji siyahısı.</td>
-    </tr>
-    <tr>
-      <td>Member</td>
-      <td>Təşkilatın private (yanlızca məlumat idarəetmə sistemindən əlçatan olan) məlumat dəstərini görə bilər.</td>
-    </tr>
-    <tr>
-      <td>Editor</td>
-      <td>
-        Member-in bütün funksiyalarını yerinə yetirə bilər. Əlavə olaraq:  
-        <ul>
-          <li>Təşkilata yeni Məlumat dəstləri əlavə edə bilər.</li>
-          <li>Təşkilatdakı istənilən Məlumat dəstini redaktə və ya silə bilər.</li>
-          <li>Məlumat dəstləri public və ya private edə bilər.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Admin</td>
-      <td>
-        Editor-un bütün funksiyalarını yerinə yetirə bilər. Əlavə olaraq:  
-        <ul>
-          <li>Təşkilata yeni İştirakçılar əlavə edə bilər və həmin iştirakçıların Member, Editor və ya Admin olmasını seçə bilər.</li>
-          <li>Təşkilatdakı istənilən iştirakçıların rolunu dəyişdirə bilər (digər Admin-lər də daxil olmaqla).</li>
-          <li>Member, Editor və ya digər Admin-ləri təşkilatdan silə bilər.</li>
-          <li>Təşkilat haqqında məlumatları redaktə edə bilər (ad, təsvir, şəkil və s.).</li>
-          <li>Təşkilatı tamamilə silə bilər.</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Collaborator (Əməkdaş)</td>
-      <td>Bu funksiya Məlumat dəsti səviyyəsində icazələrin idarə edilməsini təmin edir. Bu zaman uyğun icazəsi olan Əməkdaşlar, istənilən fərdi Məlumat dəsti üzərində verilən rola uyğun əməliyyatlar icra edə bilir.</td>
-    </tr>
-    <tr>
-      <td>Update frequency (Yenilənmə tezliyi)</td>
-      <td>Yenilənmə tezliyi məlumat dəstinin nə qədər zamandan bir yeniləndiyini bizə göstərir. Nümunə: yenilənmə tezliyi – 1 ay, yenilənmə tezliyi – 3 saat.</td>
-    </tr>
-  </tbody>
-</table>
-
+<table><tbody><tr><th><p><strong>Əsas</strong></p><p><strong>anlayışlar</strong></p></th><th><p><strong>Açıqlama</strong></p></th></tr><tr><td><p><strong>Open Data</strong></p><p><strong>(Açıq məlumat)</strong></p></td><td><p>Açıq şəkildə paylaşılan və hər kəsin istifadə edə biləcəyi məlumatlardır.</p></td></tr><tr><td><p><strong>CKAN</strong></p></td><td><p>Açıq mənbəli məlumat idarəetmə sistemi olub, məlumat dəstlərinin saxlanması, paylaşılması və yayımlanması üçün istifadə olunur.</p></td></tr><tr><td><p><strong>Metadata</strong></p><p><strong>(Metaməlumatlar)</strong></p></td><td><p>Məlumat dəstləri haqqında məlumatları təsvir edən məlumatlar.</p></td></tr><tr><td><p><strong>Dataset</strong></p><p><strong>(Məlumat Dəsti)</strong></p></td><td><p>Müəyyən bir mövzuya aid məlumatların toplusu. Məsələn, bir bölgənin cinayət statistikası və ya hökumət departamentinin xərcləri haqqında məlumatlar.</p></td></tr><tr><td><p><strong>Source</strong></p><p><strong>(Mənbə)</strong></p></td><td><p>İdarəetmə sistemində məlumat dəstinin mənşəyini və ya məlumatın haradan alındığını göstərmək üçün nəzərdə tutulub.</p></td></tr><tr><td><p><strong>Resource</strong></p><p><strong>(Resurs)</strong></p></td><td><p>Məlumat dəstindəki faktiki məlumat faylları və ya məlumat mənbələri. Bu fayllar CSV, Excel formatları (XLS, XLSX), XML, PDF və ya digər formatlarda ola bilər.</p></td></tr><tr><td><p><strong>Activity Stream</strong></p><p><strong>(Fəaliyyət Axını)</strong></p></td><td><p>Məlumat dəstləri və təşkilatlar üzərində aparılan son fəaliyyətlərin xronoloji siyahısı.</p></td></tr><tr><td><p><strong>Member</strong></p></td><td><p>Təşkilatın <strong>private (yanlızca məlumat idarəetmə sistemindən əlçatan olan) məlumat dəstərini</strong> görə bilər.</p></td></tr><tr><td><p><strong>Editor</strong></p></td><td><p><strong>Member</strong>-in bütün funksiyalarını yerinə yetirə bilər.<br>Əlavə olaraq:</p><ul><li>Təşkilata yeni <strong>Məlumat dəstləri</strong> əlavə edə bilər.</li><li>Təşkilatdakı istənilən <strong>Məlumat dəstini</strong> redaktə və ya silə bilər.</li><li><strong>Məlumat dəstləri</strong> <strong>public</strong> və ya <strong>private</strong> edə bilər.</li></ul></td></tr><tr><td><p><strong>Admin</strong></p></td><td><p><strong>Editor</strong>-un bütün funksiyalarını yerinə yetirə bilər.<br>Əlavə olaraq:</p><ul><li>Təşkilata yeni İştirakçılar əlavə edə bilər və həmin iştirakçıların <strong>Member</strong>, <strong>Editor</strong> və ya <strong>Admin</strong> olmasını seçə bilər.</li><li>Təşkilatdakı istənilən iştirakçıların rolunu dəyişdirə bilər (digər <strong>Admin</strong>-lər də daxil olmaqla).</li><li><strong>Member</strong>, <strong>Editor</strong> və ya digər <strong>Admin</strong>-ləri təşkilatdan silə bilər.</li><li>Təşkilat haqqında məlumatları redaktə edə bilər (ad, təsvir, şəkil və s.).</li><li>Təşkilatı tamamilə silə bilər.</li></ul></td></tr><tr><td><p><strong>Collaborator</strong></p><p><strong>(Əməkdaş)</strong></p></td><td><p>Bu funksiya Məlumat dəsti səviyyəsində icazələrin idarə edilməsini təmin edir Bu zaman uyğun icazəsi olan Əməkdaşlar, istənilən fərdi Məlumat dəsti üzərində verilən rola uyğun əməliyyatlar icra edə bilir.</p></td></tr><tr><td><p><strong>Update frequency</strong><br><strong>(Yenilənmə tezliyi)</strong></p></td><td><p>Yenilənmə tezliyi məlumat dəstinin nə qədər zamandan bir yeniləndiyini bizə göstərir.<br>Nümunə: yenilənmə tezliyi – 1 ay, yenilənmə tezliyi – 3 saat.</p></td></tr></tbody></table>
 
 # Bölmələr
 
@@ -321,10 +245,7 @@ Cədvəl 3
 2. Əsas naviqasiya panelində Təşkilatlar **(Organizations)** bölməsinə klikləyin.
 3. Məlumat dəstinin idarəetmə interfeysinə keçmək üçün İdarə et **(Manage)** düyməsinə klikləyin.
 4. Lazım olan sahələri **cədvəl 3** əsasında dəyişdirin.
-
-<table><tbody><tr><th><ol><li><strong>Metaməlumat</strong></li></ol><p><strong>(İngiliscə)</strong></p></th><th><ol><li><strong>Metaməlumat</strong></li><li><strong>(Azərbaycanca)</strong></li></ol></th><th><ol><li><strong>Açıqlaması</strong></li></ol></th></tr><tr><td><ol><li>Title</li></ol></td><td><ol><li>Başlıq</li></ol></td><td><ol><li>Təşkilatın adı</li></ol></td></tr><tr><td><ol><li>Description</li></ol></td><td><ol><li>Açıqlama</li></ol></td><td><ol><li>Təşkilat haqqında məlumat</li></ol></td></tr><tr><td><ol><li>Image</li></ol></td><td><ol><li>Şəkil</li></ol></td><td><ol><li>Təşkilatın şəkil və ya logosu. 43 x 43 piksel ölçüsündə olması məqsədə uyğundur.</li></ol></td></tr></tbody></table>
-
-1. Yeniləmələrinizi nəzərdən keçirin və dəyişiklikləri saxlamaq üçün Təşkilatı yeniləyin **(Update Organization)** düyməsinə klikləyin.
+5. Yeniləmələrinizi nəzərdən keçirin və dəyişiklikləri saxlamaq üçün Təşkilatı yeniləyin **(Update Organization)** düyməsinə klikləyin.
 
 #### 1.4.2. Mövcud təşkilatın silinməsi
 
@@ -334,14 +255,7 @@ Mövcud təşkilatı əgər içində heç bir məlumat dəsti mövcud deyilsə a
 2. Əsas naviqasiya panelində Təşkilatlar **(Organizations)** bölməsinə klikləyin.
 3. Məlumat dəstinin idarəetmə interfeysinə keçmək üçün İdarə et **(Manage)** düyməsinə klikləyin.
 4. Silmək **(Delete)** butonuna basin.
-
-| **Metaməlumat**<br><br>**(İngiliscə)** | **Metaməlumat**<br><br>**(Azərbaycanca)** | **Açıqlaması** |
-| --- | --- | --- |
-| Title | Başlıq | Təşkilatın adı |
-| Description | Açıqlama | Təşkilat haqqında məlumat |
-| Image | Şəkil | Təşkilatın şəkil və ya logosu. 43 x 43 piksel ölçüsündə olması məqsədə uyğundur. |
-
-1. Açılan dialoq pəncərəsində Təsdiq edirəm **(Confirm)** butonuna basaraq prosesi tamamlayın.
+5. Açılan dialoq pəncərəsində Təsdiq edirəm **(Confirm)** butonuna basaraq prosesi tamamlayın.
 
 #### 1.4.3 Mövcud Təşkilata yeni member (üzv) əlavə etmək.
 
@@ -424,7 +338,7 @@ Cədvəl 4
 
 Bu API açarından istifadə edərək məlumat dəstlərini yükləmək üçün aşağıdakı fayllardan istifadə edə bilərsiniz.
 
-[https://docs.ckan.org/en/2.10/maintaining/filestore.html?highlight=resource_create#filestore-api](https://docs.ckan.org/en/2.10/maintaining/filestore.html?highlight=resource_create"%20\l%20"filestore-api)
+<https://docs.ckan.org/en/2.10/maintaining/filestore.html?highlight=resource_create#filestore-api>
 
 [API guide — CKAN 2.10.7 documentation](https://docs.ckan.org/en/2.10/api/index.html)
 
@@ -434,3 +348,88 @@ Bu API açarından istifadə edərək məlumat dəstlərini yükləmək üçün 
 2. Profilinizə (İştirakçı adınızın yazıldığı hissə) klikləyin.
 3. API açarlar **(API Tokens)** bölməsinə keçid edin.
 4. Silmək istədiyiniz tokeni **X** butonuna basaraq silə bilərsiniz.
+
+### 1.6.3 API vasitəsi ilə məlumat dəstlərinin əlavə edilməsi
+
+**1\. Məlumat idarəetmə sistemində API-ə qoşulma və faylları ehtiva edən mənbə qovluq.**
+
+&nbsp;
+
+&nbsp;
+
+\# CKAN instance main URL
+ckan_url = "<http://opendata-api.idda.az/api/3/action>"
+
+\# Package create – for creating dataset itself (without files, which later can contain any number of # files):
+resource_create_url = ckan_url + "/resource_create"
+
+\# Resource create – for adding specific file with data into already created CKAN dataset:
+package_create_url = ckan_url + "/package_create"
+
+\# Title translations are optional
+trns_en = GoogleTranslator(source='az', target='en')
+trns_ru = GoogleTranslator(source='az', target='ru')
+
+\# API key is unique for each publisher organization and generated/shared by CKAN Admin. Below is just an example
+api_key = ("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmN2ExYmMyY2QzZTRlNWY2YTZiN2M4ZDllMGYxYTIiLCJpYXQiOjE3MzM5MTI0MDF9.jgbfdY76kkk")
+
+\# Defining that authorisation is made by API key
+headers = {"Authorization": api_key}
+
+\# Your directory where required dataset files are located:
+dir_path = '&lt;/your_directory_where_files_located&gt;'
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**2\. Məlumat dəstində Metaməlumatların doldurulması üçün element adları.**
+
+&nbsp;
+
+package_data = {
+    "\_csrf_token": "IjA1ODU0MmU2MGZjYmI4MmFjOTIxOTI0YzAxYzE3NGExYzBmYzU1ZDIi.Z1lN-A.t9BcCBwgWm1hSubcD_4SVO182uo",
+    "name": dataset_name,
+    "title_translated-az": dataset_title, # title in Azerbaijani
+    "title_translated-en": title_en, # title in English
+    "title_translated-ru": title_ru, # title in Russian
+    "url": dataset_name,  # Easy practice to generate URL is using dataset name
+    "owner_org": '9b44b52f-2116-48c8-9565-d9dc026dca8f',   # This ID is unique for each publisher  
+
+&nbsp;# organization and share by CKAN admin
+    "license_id": 'notspecified',
+    "private": False, # if set False, it will be publicly available in portal
+    "tag_string": directory_name  # Easy practice to generate TAG is using directory name
+    }
+
+**3**. **Məlumat dəstində konkret faylın metaməlumatlarının doldurulması üçün element adları**.
+
+&nbsp;       # Get the package ID from the response. Package is created code above, before resource.
+
+&nbsp;       package_id = package_response.json()\["result"\]\["id"\]
+
+&nbsp;       # Parameters for the resource
+
+&nbsp;       resource_data = {
+
+&nbsp;           "package_id": package_id,
+
+&nbsp;           "name": resource_name, # name of the file
+
+&nbsp;           "format": 'CSV', # as your file extensions (csv, json,etc)
+
+&nbsp;           "name_translated-az": resource_name,
+
+&nbsp;           "name_translated-en":title_en, # name of the file in English
+
+&nbsp;           "name_translated-ru":title_ru # name of the file in Russian
+
+&nbsp;
+
+&nbsp;       }  
+
+&nbsp;
+
+&nbsp;
