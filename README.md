@@ -237,12 +237,43 @@ Cədvəl 1
 1. Məlumat əlavə et **(Add Data)** düyməsinə klikləyərək məlumat yükləmə səhifəsinə keçin.
 2. Aşağıda verilmiş cədvəl əsasında məlumatlarınızı daxil edin.
 
-| **Metaməlumat**<br><br>**(İngiliscə)** | **Metaməlumat**<br><br>**(Azərbaycanca)** | **Açıqlaması** |
-| --- | --- | --- |
-| Data | Məlumat | Siz məlumat dəstinin resurslarını (mənbələrini) təyin edirsiniz.  <br>**Upload** və **Link** şəkilində iki seçim verilir.<br><br>**Upload**: komputerdə yer alan fayllarınız arasında seçim edirsiniz.<br><br>**Link:** API linki şəkilində saxladığınız məlumatların linkini daxil edə bilərsiniz. |
-| AZ, EN, RU Name | Azərbaycan, İngilis və Rus dilində ad | Resursun təsviri adı |
-| AZ, EN, RU Description | Azərbaycan, İngilis və Rus dilində açıqlama | Resurs haqqında məlumat. |
-| Format | Format | Əlavə edilən mənbənin formatı qeyd olunur (CSV, JSON, XML və.s) |
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th>Metaməlumat<br>(İngiliscə)</th>
+            <th>Metaməlumat<br>(Azərbaycanca)</th>
+            <th>Açıqlaması</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Data</td>
+            <td>Məlumat</td>
+            <td>
+                Siz məlumat dəstinin resurslarını (mənbələrini) təyin edirsiniz. <br>
+                <strong>Upload</strong> və <strong>Link</strong> şəkilində iki seçim verilir.<br><br>
+                <strong>Upload:</strong> Komputerdə yer alan fayllarınız arasında seçim edirsiniz.<br><br>
+                <strong>Link:</strong> API linki şəkilində saxladığınız məlumatların linkini daxil edə bilərsiniz.
+            </td>
+        </tr>
+        <tr>
+            <td>AZ, EN, RU Name</td>
+            <td>Azərbaycan, İngilis və Rus dilində ad</td>
+            <td>Resursun təsviri adı</td>
+        </tr>
+        <tr>
+            <td>AZ, EN, RU Description</td>
+            <td>Azərbaycan, İngilis və Rus dilində açıqlama</td>
+            <td>Resurs haqqında məlumat.</td>
+        </tr>
+        <tr>
+            <td>Format</td>
+            <td>Format</td>
+            <td>Əlavə edilən mənbənin formatı qeyd olunur (CSV, JSON, XML və.s)</td>
+        </tr>
+    </tbody>
+</table>
+
 
 Cədvəl 2
 
