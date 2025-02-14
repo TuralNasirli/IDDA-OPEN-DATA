@@ -10,7 +10,89 @@ Bu təlimat [**CKAN 2.10.7 Overview**](https://docs.ckan.org/en/2.10/) sənədin
 
 Aşağıdakı cədvəl sizə portalda yer alan Anlayışlar və biznes terminləri haqqında ümumi məlumat verir.
 
-<table><tbody><tr><th><p><strong>Əsas</strong></p><p><strong>anlayışlar</strong></p></th><th><p><strong>Açıqlama</strong></p></th></tr><tr><td><p><strong>Open Data</strong></p><p><strong>(Açıq məlumat)</strong></p></td><td><p>Açıq şəkildə paylaşılan və hər kəsin istifadə edə biləcəyi məlumatlardır.</p></td></tr><tr><td><p><strong>CKAN</strong></p></td><td><p>Açıq mənbəli məlumat idarəetmə sistemi olub, məlumat dəstlərinin saxlanması, paylaşılması və yayımlanması üçün istifadə olunur.</p></td></tr><tr><td><p><strong>Metadata</strong></p><p><strong>(Metaməlumatlar)</strong></p></td><td><p>Məlumat dəstləri haqqında məlumatları təsvir edən məlumatlar.</p></td></tr><tr><td><p><strong>Dataset</strong></p><p><strong>(Məlumat Dəsti)</strong></p></td><td><p>Müəyyən bir mövzuya aid məlumatların toplusu. Məsələn, bir bölgənin cinayət statistikası və ya hökumət departamentinin xərcləri haqqında məlumatlar.</p></td></tr><tr><td><p><strong>Source</strong></p><p><strong>(Mənbə)</strong></p></td><td><p>İdarəetmə sistemində məlumat dəstinin mənşəyini və ya məlumatın haradan alındığını göstərmək üçün nəzərdə tutulub.</p></td></tr><tr><td><p><strong>Resource</strong></p><p><strong>(Resurs)</strong></p></td><td><p>Məlumat dəstindəki faktiki məlumat faylları və ya məlumat mənbələri. Bu fayllar CSV, Excel formatları (XLS, XLSX), XML, PDF və ya digər formatlarda ola bilər.</p></td></tr><tr><td><p><strong>Activity Stream</strong></p><p><strong>(Fəaliyyət Axını)</strong></p></td><td><p>Məlumat dəstləri və təşkilatlar üzərində aparılan son fəaliyyətlərin xronoloji siyahısı.</p></td></tr><tr><td><p><strong>Member</strong></p></td><td><p>Təşkilatın <strong>private (yanlızca məlumat idarəetmə sistemindən əlçatan olan) məlumat dəstərini</strong> görə bilər.</p></td></tr><tr><td><p><strong>Editor</strong></p></td><td><p><strong>Member</strong>-in bütün funksiyalarını yerinə yetirə bilər.<br>Əlavə olaraq:</p><ul><li>Təşkilata yeni <strong>Məlumat dəstləri</strong> əlavə edə bilər.</li><li>Təşkilatdakı istənilən <strong>Məlumat dəstini</strong> redaktə və ya silə bilər.</li><li><strong>Məlumat dəstləri</strong> <strong>public</strong> və ya <strong>private</strong> edə bilər.</li></ul></td></tr><tr><td><p><strong>Admin</strong></p></td><td><p><strong>Editor</strong>-un bütün funksiyalarını yerinə yetirə bilər.<br>Əlavə olaraq:</p><ul><li>Təşkilata yeni İştirakçılar əlavə edə bilər və həmin iştirakçıların <strong>Member</strong>, <strong>Editor</strong> və ya <strong>Admin</strong> olmasını seçə bilər.</li><li>Təşkilatdakı istənilən iştirakçıların rolunu dəyişdirə bilər (digər <strong>Admin</strong>-lər də daxil olmaqla).</li><li><strong>Member</strong>, <strong>Editor</strong> və ya digər <strong>Admin</strong>-ləri təşkilatdan silə bilər.</li><li>Təşkilat haqqında məlumatları redaktə edə bilər (ad, təsvir, şəkil və s.).</li><li>Təşkilatı tamamilə silə bilər.</li></ul></td></tr><tr><td><p><strong>Collaborator</strong></p><p><strong>(Əməkdaş)</strong></p></td><td><p>Bu funksiya Məlumat dəsti səviyyəsində icazələrin idarə edilməsini təmin edir Bu zaman uyğun icazəsi olan Əməkdaşlar, istənilən fərdi Məlumat dəsti üzərində verilən rola uyğun əməliyyatlar icra edə bilir.</p></td></tr><tr><td><p><strong>Update frequency</strong><br><strong>(Yenilənmə tezliyi)</strong></p></td><td><p>Yenilənmə tezliyi məlumat dəstinin nə qədər zamandan bir yeniləndiyini bizə göstərir.<br>Nümunə: yenilənmə tezliyi – 1 ay, yenilənmə tezliyi – 3 saat.</p></td></tr></tbody></table>
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th>Əsas anlayışlar</th>
+            <th>Açıqlama</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Open Data (Açıq məlumat)</td>
+            <td>Açıq şəkildə paylaşılan və hər kəsin istifadə edə biləcəyi məlumatlardır.</td>
+        </tr>
+        <tr>
+            <td>CKAN</td>
+            <td>Açıq mənbəli məlumat idarəetmə sistemi olub, məlumat dəstlərinin saxlanması, paylaşılması və yayımlanması üçün istifadə olunur.</td>
+        </tr>
+        <tr>
+            <td>Metadata (Metaməlumatlar)</td>
+            <td>Məlumat dəstləri haqqında məlumatları təsvir edən məlumatlar.</td>
+        </tr>
+        <tr>
+            <td>Dataset (Məlumat Dəsti)</td>
+            <td>Müəyyən bir mövzuya aid məlumatların toplusu. Məsələn, bir bölgənin cinayət statistikası və ya hökumət departamentinin xərcləri haqqında məlumatlar.</td>
+        </tr>
+        <tr>
+            <td>Source (Mənbə)</td>
+            <td>İdarəetmə sistemində məlumat dəstinin mənşəyini və ya məlumatın haradan alındığını göstərmək üçün nəzərdə tutulub.</td>
+        </tr>
+        <tr>
+            <td>Resource (Resurs)</td>
+            <td>Məlumat dəstindəki faktiki məlumat faylları və ya məlumat mənbələri. Bu fayllar CSV, Excel formatları (XLS, XLSX), XML, PDF və ya digər formalarda ola bilər.</td>
+        </tr>
+        <tr>
+            <td>Activity Stream (Fəaliyyət Axını)</td>
+            <td>Məlumat dəstləri və təşkilatlar üzərində aparılan son fəaliyyətlərin xronoloji siyahısı.</td>
+        </tr>
+        <tr>
+            <td>Member</td>
+            <td>Təşkilatın private (yalnızca məlumat idarəetmə sistemindən əlçatan olan) məlumat dəstlərini görə bilər.</td>
+        </tr>
+        <tr>
+            <td>Editor</td>
+            <td>
+                <ul>
+                    <li>Member-in bütün funksiyalarını yerinə yetirə bilər.</li>
+                    <li>Əlavə olaraq:
+                        <ul>
+                            <li>Təşkilata yeni Məlumat dəstləri əlavə edə bilər.</li>
+                            <li>Təşkilatdakı istənilən Məlumat dəstini redaktə və ya silə bilər.</li>
+                            <li>Məlumat dəstləri public və ya private edə bilər.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Admin</td>
+            <td>
+                <ul>
+                    <li>Editor-un bütün funksiyalarını yerinə yetirə bilər.</li>
+                    <li>Əlavə olaraq:
+                        <ul>
+                            <li>Təşkilata yeni iştirakçılar əlavə edə bilər və həmin iştirakçıları Member, Editor və ya Admin olmasını seçə bilər.</li>
+                            <li>Təşkilatdakı istənilən iştirakçının rolunu dəyişdirə bilər (digər Admin-lər də daxil olmaqla).</li>
+                            <li>Member, Editor və ya digər Admin-ləri təşkilatdan silə bilər.</li>
+                            <li>Təşkilat haqqında məlumatları redaktə edə bilər (ad, təsvir, şəkil və s.).</li>
+                            <li>Təşkilatı tamamilə silə bilər.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Collaborator (Əməkdaş)</td>
+            <td>Bu funksiyaya Məlumat dəsti səviyyəsində icazələrin idarə edilməsi təmin edilir. Bu zaman uyğun icazəsi olan Əməkdaşlar, istənilən fərdi Məlumat dəsti üzərində verilən rola uyğun əməliyyatları icra edə bilirlər.</td>
+        </tr>
+        <tr>
+            <td>Update frequency (Yenilənmə tezliyi)</td>
+            <td>Yenilənmə tezliyi məlumat dəstinin nə qədər zamandan bir yeniləndiyini bizə göstərir. <br>Nümunə: yenilənmə tezliyi = 1 ay, yenilənmə tezliyi = 3 saat.</td>
+        </tr>
+    </tbody>
+</table>
+
 
 # Bölmələr
 
