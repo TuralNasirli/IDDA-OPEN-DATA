@@ -385,11 +385,33 @@ Bu lisenziya müəllif hüquqları ilə qorunan məzmunların, o cümlədən mə
 3. Təşkilat əlavə et **(Add Organization)** butonuna klikləyin.
 4. Açılan səhifədə lazım olan sahələri aşağıdakı cədvəl əsasında doldurun.
 
-| **Metaməlumat**<br><br>**(İngiliscə)** | **Metaməlumat**<br><br>**(Azərbaycanca)** | **Açıqlaması** |
-| --- | --- | --- |
-| Title | Başlıq | Təşkilatın adı |
-| Description | Açıqlama | Təşkilat haqqında məlumat |
-| Image | Şəkil | Təşkilatın şəkil və ya logosu. 43 x 43 piksel ölçüsündə olması məqsədə uyğundur. |
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th>Metaməlumat<br>(İngiliscə)</th>
+            <th>Metaməlumat<br>(Azərbaycanca)</th>
+            <th>Açıqlaması</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Title</td>
+            <td>Başlıq</td>
+            <td>Təşkilatın adı</td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td>Açıqlama</td>
+            <td>Təşkilat haqqında məlumat</td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td>Şəkil</td>
+            <td>Təşkilatın şəkil və ya logosu. 43 x 43 piksel ölçüsündə olması məqsədə uyğundur.</td>
+        </tr>
+    </tbody>
+</table>
+
 
 Cədvəl 3
 
@@ -463,12 +485,38 @@ Mövcud təşkilatı əgər içində heç bir məlumat dəsti mövcud deyilsə a
 2. Profil parametrləri **(Profile Settings)** bölməsinə keçid edin.
 3. Aşağıda verdiyim cədvəldəki məlumatları zəhmət əlavə edə və ya dəyişdirə bilərsiniz.
 
-| **Data** | **Məlumat** | **Açıqlaması** |
-| --- | --- | --- |
-| Full name | Ad, Soyad | İştrakçının tam adı yazılmalıdır. |
-| Email | E-poçt | Iştirakçının Elektron poşt ünvanı yerləşir. |
-| About | Haqqında | İştirakçı özü haqqında məlumat yerləşdirə bilər. |
-| Profile picture | Profil şəkli | İştirakçı öz şəkilini bura yerləşdirə bilər. |
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th>Data</th>
+            <th>Məlumat</th>
+            <th>Açıqlaması</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Full name</td>
+            <td>Ad, Soyad</td>
+            <td>İştirakçının tam adı yazılmalıdır.</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>E-poçt</td>
+            <td>İştirakçının Elektron poçt ünvanı yerləşir.</td>
+        </tr>
+        <tr>
+            <td>About</td>
+            <td>Haqqında</td>
+            <td>İştirakçı özü haqqında məlumat yerləşdirə bilər.</td>
+        </tr>
+        <tr>
+            <td>Profile picture</td>
+            <td>Profil şəkli</td>
+            <td>İştirakçı öz şəkilini bura yerləşdirə bilər.</td>
+        </tr>
+    </tbody>
+</table>
+
 
 Cədvəl 4
 
