@@ -269,7 +269,7 @@ Cədvəl 1
         <tr>
             <td>Format</td>
             <td>Format</td>
-            <td>Əlavə edilən mənbənin formatı qeyd olunur (CSV, JSON, XML və.s)</td>
+            <td>Əlavə edilən mənbənin formatı qeyd olunur. Nümunə olaraq: məlumatları strukturludursa, CSV, yarı strukturlu və struktursuzdursa, JSON və ya XML kimi formatlardan istifadə edilə bilər.</td>
         </tr>
     </tbody>
 </table>
@@ -311,7 +311,7 @@ Nümunə:
 
 #### 1.3.1.3. Məlumat idarəetmə sistemində yer alan məlumat dəstlərinə tətbiq oluna biləcək lisenziyalar
 
-**1\. Creative Commons Attribution 4.0 International (CC BY 4.0) lisenziyası**
+**1\. Creative Commons Attribution 4.0 Beynəlxalq (CC BY 4.0) Lisenziyası**
 
 Bu lisenziya müəllif hüquqları ilə qorunan məzmunların, o cümlədən məlumat dəstlərinin sərbəst istifadəsinə imkan yaradır və aşağıdakı şərtləri müəyyən edir:
 
@@ -322,7 +322,7 @@ Bu lisenziya müəllif hüquqları ilə qorunan məzmunların, o cümlədən mə
 - **Texniki dəyişikliklərə icazə verilir** – Məlumat istənilən formata çevrilə bilər (CSV, SQL, JSON və s.), eləcə də müxtəlif proqramlarda istifadəsi mümkündür.
 - **Digər şərtləri ilə burden tanış ola bilərsiniz**: [Legal Code - Attribution 4.0 International - Creative Commons](https://creativecommons.org/licenses/by/4.0/legalcode)
 
-**2\. Creative Commons Zero (CC0) lisenziyası**
+**2\. Creative Commons Zero (CC0) Lisenziyası**
 
 - Məzmuna dair bütün hüquqlardan imtina edildiyini və onun ictimai mülkiyyətə verildiyini ifadə edir. Məzmundan istənilən məqsədlə, məhdudiyyətsiz və istinadsız istifadə etmək mümkündür.
 
